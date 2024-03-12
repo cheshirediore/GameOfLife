@@ -1,8 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿// Create the graph
+Graph graph = new Graph(32, 10);
 
-using System.Diagnostics.Metrics;
-
-Graph graph = new Graph(20, 10);
+// Initiate a glider
 graph.SetNodeState(2, 1, 1);
 graph.SetNodeState(3, 2, 1);
 graph.SetNodeState(1, 3, 1);
